@@ -7,8 +7,6 @@ export default class Bio extends Component {
 		this.animate = this.animate.bind(this);
 		this.state = {
 			bioClass: 'bioText',
-			imageClass: 'bioImage',
-			techClass: 'bioText',
 		};
 	}
 
@@ -19,8 +17,6 @@ export default class Bio extends Component {
 	animate(){
 		this.setState({ 
 			bioClass: 'bioText slideInLeft',
-			imageClass: 'bioImage fadeIn',
-			techClass: 'bioText slideInRight',
 		});
 	}
 
@@ -42,8 +38,8 @@ export default class Bio extends Component {
 							problem, and the solutions and new tricks are what keep me coming back for more.
 						</div>
 					</div>
-					<div className='col-md-4'>
-						<div className={this.state.imageClass}></div>
+					<div className='col-md-4 text-center'>
+						<div className='bioImage'></div>
 					</div>
 				</div>
 			</div>
