@@ -3,14 +3,17 @@ html, body {
 	margin : 0px;
 }
 
+/*Welcome CSS*/
+
 .fullHeight {
 	height: 100%;
 }
 
-#background {
+#welcomeBackground {
 	background-image: url('../images/background.jpg');
 	background-size: 100% 100%;
 	background-position: left top;
+	background-attachment: fixed;
 	height:100%;
 }
 
@@ -24,14 +27,90 @@ html, body {
        1px 1px 0 #000;
 }
 
+.divider {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: 36%;
+}
+
 .mainTitle {
 	font-size: 47px;
 }
 
 .subTitle {
-	font-size: 36px;
+	font-size: 28px;
 }
 
 .centerHeight {
 	padding: 45vh;
+}
+
+/*About CSS*/
+
+.about {
+	height: 75vh;
+	padding-top: 10vh;
+}
+
+.bioText {
+	font-size: 20px;
+
+}
+
+.bioImage {
+	content: url('../images/background.jpg');
+	width: 100%;
+}
+
+.slideInLeft {
+	animation-duration: 2s;
+  animation-name: slideinleft;
+}
+
+.slideInRight {
+	animation-duration: 1.5s;
+	animation-name: slideinright;
+}
+
+.fadeIn {
+	animation-duration: 2s;
+	animation-name: fadein;
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: -20vw;
+    margin-right: 20vw;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    opacity: 1;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    margin-left: 20vw;
+    margin-right: -20vw;
+    opacity: 0;
+  }
+
+  to {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import Home from './Home.js';
+import Welcome from './Welcome.js';
+import About from './About.js';
 
 
 class App extends Component {
   render() {
     return (
       <div className='fullHeight'>
-        <Home />
-        <Home />
+        <Welcome />
+        <About />
       </div>
     );
   }
