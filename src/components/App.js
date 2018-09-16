@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Welcome from './Welcome.js';
 import About from './About.js';
 import Projects from './Projects';
-import Technology from './Technology';
+import Experience from './Experience';
 import Contact from './Contact';
 
 
@@ -12,7 +12,7 @@ class App extends Component {
       <div className='fullHeight'>
         <Welcome />
         <About />
-        <Technology />
+        <Experience />
         <Projects />
         <Contact />
       </div>

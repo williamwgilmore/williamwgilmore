@@ -15,6 +15,9 @@ html, body {
 	background-position: left top;
 	background-attachment: fixed;
 	height:100%;
+	/*This removes the space from the container*/
+	margin-right: -15px;
+	margin-left: -15px;
 }
 
 .title {
@@ -116,6 +119,34 @@ html, body {
 	}
 }
 
+/*Experience CSS*/
+
+.experienceBackground {
+	background-color: #faf8ed;
+	/*Counter whitespace from container*/
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.professionalBackground {
+	background-color: #f1eac9;
+}
+
+.educationBackground {
+	background-color: #f0e8c4;
+}
+
+.blackBar {
+	border-top: 1px solid #8e8e8e;
+	margin: 1em 1em;
+}
+
+.experienceText {
+	margin: 2em 1em;
+	text-align: justify;
+}
+
+
 /*Projects CSS -- there is also css in a media query*/
 
 .aspireSection {
@@ -192,4 +223,24 @@ html, body {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.professionalBackground, .educationBackground{
+		margin: 2em 2em;
+	}
+
+	.experienceText{
+		margin: 1em 10em;
+	}
+}
+
+/*Background zoom*/
+.backgroundZoom{
+	position: relative;
+	transition: transform .2s;
+	z-index: 10;
+}
+
+.backgroundZoom:hover{
+	transform: scale(1.25);
+	z-index: 10000;
 }
