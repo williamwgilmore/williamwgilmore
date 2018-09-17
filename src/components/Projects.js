@@ -15,7 +15,7 @@ export default class Projects extends Component {
 						<h2 className='text-center'>
 							Game Host
 						</h2>
-						<a href='https://radiant-sands-20076.herokuapp.com/breakout' className='gameHostLink' target='_blank' rel="noopener noreferrer" />
+						<a href='https://radiant-sands-20076.herokuapp.com/breakout' className='gameHostLink' target='_blank' rel="noopener noreferrer" content='GameHost Link' name='GameHost Link'/>
 						<p className='experienceText'>
 							For my final project at The University of Texas at Austin's Bootcamp, I created a game hosting site using
 							React, Canvas, Mongoose, and Auth0. The idea behind the site is that the only code that needs to change is
