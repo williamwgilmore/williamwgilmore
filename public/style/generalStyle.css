@@ -156,9 +156,13 @@ html, body {
 	float: right;
 }
 
-	.experienceButton {
-		margin: 1em;
-	}
+.experienceButton {
+	margin: 1em;
+}
+
+.removeTopMargin {
+	margin-top: 0px;
+}
 
 
 /*Projects CSS -- there is also css in a media query*/

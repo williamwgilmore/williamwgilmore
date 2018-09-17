@@ -71,7 +71,7 @@ export default class Experience extends Component {
 							<div className='row'>
 								<div className='col-md-12'>
 									<div className='row'>
-										<div className='col-md-10 col-md-offset-1 experienceText'>
+										<div className='col-md-10 col-md-offset-1 experienceText removeTopMargin'>
 											<h4>Proficient</h4>
 											<ul>
 												<li>Javascript, jQuery, HTML, CSS, Bootstrap, Node.js, MySQL, Git, JSON</li>
