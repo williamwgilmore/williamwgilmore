@@ -199,6 +199,14 @@ html, body {
 	width: 100%;
 }
 
+.screenReader {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
 /*Contact CSS*/
 .contactBackground {
 	background-color: #faf8ed;
