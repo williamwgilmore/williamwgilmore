@@ -45,13 +45,12 @@ html, body {
 }
 
 .centerHeight {
-	padding: 45vh;
+	padding: 45vh 0;
 }
 
 /*About CSS -- there is also css in a media query*/
 
 .about {
-	height: 70vh;
 	padding-top: 7vh;
 }
 
