@@ -94,7 +94,7 @@ export default class Experience extends Component {
 
 				<div className='row'>
 					<div className='col-md-12'>
-						<button href='./pdf/Resume.pdf' download='WillGilmoreResume' className='btn btn-right floatRight'>Download Resume</button>
+						<button href='./pdf/Resume.pdf' download='WillGilmoreResume' className='btn btn-right floatRight experienceButton'>Download Resume</button>
 						<br />
 						<br />
 					</div>
