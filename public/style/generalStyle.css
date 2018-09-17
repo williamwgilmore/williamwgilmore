@@ -51,7 +51,7 @@ html, body {
 /*About CSS -- there is also css in a media query*/
 
 .about {
-	padding-top: 7vh;
+	padding: 3vh;
 }
 
 .bioText {
@@ -63,6 +63,7 @@ html, body {
 .bioImage {
 	content: url('../images/bioImage.jpg');
 	width: 100%;
+	margin: 1vh 0;
 }
 
 .slideInLeft {
@@ -235,9 +236,7 @@ html, body {
 	.bioText {
 		margin: 3vh 3vw 3vh 3vw;
 	}
-	.about {
-		height: 100%;
-	}
+
 	.bioImage {
 		width: 50%;
 		display: block;
