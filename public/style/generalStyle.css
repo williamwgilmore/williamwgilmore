@@ -138,17 +138,17 @@ html, body {
 
 .technologyBackground {
 	background-color: #e4dfcb;
-	margin: 1em 1em;
-	padding: 1em 1em;
+	margin: 1vh 1vw;
+	padding: 1vh 1vw;
 }
 
 .blackBar {
 	border-top: 1px solid #8e8e8e;
-	margin: 1em 3em;
+	margin: 1vh 3vw;
 }
 
 .experienceText {
-	margin: 2em 1em;
+	margin: 2vh 1vw;
 	text-align: justify;
 }
 
@@ -157,7 +157,7 @@ html, body {
 }
 
 .experienceButton {
-	margin: 1em;
+	margin: 1vh 1vw;
 }
 
 .removeTopMargin {
@@ -173,7 +173,7 @@ html, body {
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
 	height: 60vh;
-	margin-right: 1em;
+	margin-right: 1vw;
 }
 
 .gameHostSection h2 {
@@ -186,7 +186,7 @@ html, body {
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
 	height: 60vh;
-	margin-left: 1em;
+	margin-left: 1vw;
 }
 
 .immigrationPortalSection h2{
@@ -217,12 +217,12 @@ html, body {
 	/*Counter whitespace from container*/
 	margin-left: -15px;
 	margin-right: -15px;
-	padding: 1em 0 1em 0;
+	padding: 1vh 0 1vw 0;
 }
 
 .contactText {
 	display: inline;
-	margin: 0 1em;
+	margin: 0 1vw;
 }
 
 .contactText a {
@@ -260,15 +260,53 @@ html, body {
 	}
 
 	.professionalBackground, .educationBackground{
-		margin: 2em 2em;
+		margin: 2vh 2vw;
 	}
 
 	.experienceText{
-		margin: 1em 10em;
+		margin: 1vh 10vw;
 	}
 }
 
-/*Background zoom*/
+@media only screen and (max-width: 826){
+	/*Bio*/
+	.bioText {
+		margin: 3vh 3vw 3vh 3vw;
+	}
+	.about {
+		height: 100%;
+	}
+	.bioImage {
+		width: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Projects*/
+	.gameHostSection, .immigrationPortalSection {
+		height: 100%;
+		margin: 0;
+	}
+
+	.gameHostLink, .immigrationPortalLink {
+		width: 75%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.professionalBackground, .educationBackground{
+		margin: 2vh 2vw;
+	}
+
+	.experienceText{
+		margin: 1vh 10vw;
+	}
+}
+
+
+/*Background zoom, shared*/
 .backgroundZoom{
 	position: relative;
 	transition: transform .2s;
