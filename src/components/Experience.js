@@ -30,18 +30,17 @@ export default class Experience extends Component {
 										learned C# with the help of the senior developer while working here.
 									</p> 
 							  	<br />
-
 								</div>
 							</div>
 						</div>
 					</div>
+
 					<div className='col-md-4'>
 						<div className='educationBackground backgroundZoom'>
 							<div className='row'>
 								<div className='col-md-12'>
 									<h3 className='text-center'>Education</h3>
 									<hr className='blackBar'/>
-
 								</div>
 							</div>
 							<div className='row'>
@@ -54,7 +53,6 @@ export default class Experience extends Component {
 										  Bootstrap, React.js, Node.js, MongoDB, MySQL, Heroku, Security and Session Storage, and User Authentication.
 									</p> 
 							  	<br />
-
 								</div>
 							</div>
 						</div>
@@ -62,48 +60,43 @@ export default class Experience extends Component {
 				</div>
 
 				<div className='row'>
-					<div className='col-md-2 col-md-offset-3'>
-						<h4>Proficient</h4>
-						<ul>
-							<li>Javascript</li>
-							<li>jQuery</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Bootstrap</li>
-							<li>Node.js</li>
-							<li>MySQL</li>
-							<li>Git</li>
-							<li>JSON</li>
-						</ul>
-					</div>
-					<div className='col-md-2'>
-						<h4>Comfortable</h4>
-						<ul>
-							<li>Express</li>
-							<li>C#</li>
-							<li>ASP.NET</li>
-							<li>MVC</li>
-							<li>Canvas</li>
-							<li>MongoDB</li>
-							<li>React.js</li>
-							<li>REST</li>
-							<li>Heroku</li>
-						</ul>
-					</div>
-					<div className='col-md-2'>
-						<h4>Familiar</h4>
-						<ul>
-							<li>Redux</li>
-							<li>Python</li>
-							<li>Java</li>
-							<li>PHP</li>
-							<li>Auth0</li>
-						</ul>
+					<div className='col-md-6 col-md-offset-3'>
+						<div className='technologyBackground backgroundZoom'>
+							<div className='row'>
+								<div className='col-md-12'>
+									<h3 className='text-center'>Technologies</h3>
+									<hr className='blackBar' />
+								</div>
+							</div>
+							<div className='row'>
+								<div className='col-md-12'>
+									<div className='row'>
+										<div className='col-md-10 col-md-offset-1 experienceText'>
+											<h4>Proficient</h4>
+											<ul>
+												<li>Javascript, jQuery, HTML, CSS, Bootstrap, Node.js, MySQL, Git, JSON</li>
+											</ul>
+											<h4>Comfortable</h4>
+											<ul>
+												<li>Express, C#, ASP.NET, MVC, Canvas, MongoDB, Reactjs, REST, Heroku</li>
+											</ul>
+											<h4>Familiar</h4>
+											<ul>
+												<li>Redux, Python, Java, PHP, Auth0</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+
 				<div className='row'>
 					<div className='col-md-12'>
-						<a href='./pdf/Resume.pdf' download='WillGilmoreResume'>Resume</a>
+						<button href='./pdf/Resume.pdf' download='WillGilmoreResume' className='btn btn-right floatRight'>Download Resume</button>
+						<br />
+						<br />
 					</div>
 				</div>
 			</div>
