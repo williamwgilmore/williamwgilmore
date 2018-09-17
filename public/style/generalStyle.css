@@ -129,16 +129,22 @@ html, body {
 }
 
 .professionalBackground {
-	background-color: #f1eac9;
+	background-color: #d8d2b4;
 }
 
 .educationBackground {
 	background-color: #f0e8c4;
 }
 
+.technologyBackground {
+	background-color: #e4dfcb;
+	margin: 1em 1em;
+	padding: 1em 1em;
+}
+
 .blackBar {
 	border-top: 1px solid #8e8e8e;
-	margin: 1em 1em;
+	margin: 1em 3em;
 }
 
 .experienceText {
@@ -146,27 +152,20 @@ html, body {
 	text-align: justify;
 }
 
+.floatRight {
+	float: right;
+}
+
 
 /*Projects CSS -- there is also css in a media query*/
 
-.aspireSection {
-	background-color: rgba(0, 0, 0, .07);
-	color: black;	
-	padding: 1vh 2vw 1vh 2vw;
-	text-align: justify;
-	height: 60vh;
-}
-
-.aspireSection h2 {
-	color: rgba(10, 115, 150, 1);
-}
-
 .gameHostSection {
-	background-color: rgba(0, 0, 0, .87);
+	background-color: #0c0c0c;
 	color: white;
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
 	height: 60vh;
+	margin-right: 1em;
 }
 
 .gameHostSection h2 {
@@ -179,6 +178,7 @@ html, body {
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
 	height: 60vh;
+	margin-left: 1em;
 }
 
 .immigrationPortalSection h2{
@@ -193,6 +193,24 @@ html, body {
 .immigrationPortalLink {
 	content: url('../images/immigrationApp.jpg');
 	width: 100%;
+}
+
+/*Contact CSS*/
+.contactBackground {
+	background-color: #faf8ed;
+	/*Counter whitespace from container*/
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 1em 0 1em 0;
+}
+
+.contactText {
+	display: inline;
+	margin: 0 1em;
+}
+
+.contactText a {
+	color: black;
 }
 
 /*Media query*/
@@ -213,8 +231,9 @@ html, body {
 	}
 
 	/*Projects*/
-	.aspireSection, .gameHostSection, .immigrationPortalSection {
+	.gameHostSection, .immigrationPortalSection {
 		height: 100%;
+		margin: 0;
 	}
 
 	.gameHostLink, .immigrationPortalLink {
@@ -241,6 +260,6 @@ html, body {
 }
 
 .backgroundZoom:hover{
-	transform: scale(1.25);
+	transform: scale(1.2);
 	z-index: 10000;
 }
