@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	margin : 0px;
+	font-family: oswald;
 }
 
 /*Welcome CSS*/
@@ -55,7 +56,7 @@ html, body {
 }
 
 .bioText {
-	font-size: 20px;
+	font-size: 22px;
 	text-align: justify;
 	margin: 1vh 0 1vh 0;
 }
@@ -150,6 +151,7 @@ html, body {
 .experienceText {
 	margin: 2vh 1vw;
 	text-align: justify;
+	font-size: 18px;
 }
 
 .floatRight {
@@ -168,24 +170,22 @@ html, body {
 /*Projects CSS -- there is also css in a media query*/
 
 .gameHostSection {
-	background-color: #0c0c0c;
-	color: white;
+	background-color: #F6F4ED;
+	color: #003A65;
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
-	height: 60vh;
 	margin-right: 1vw;
 }
 
 .gameHostSection h2 {
-	color: lightblue;
+	color: #003A65;
 }
 
 .immigrationPortalSection {
-	background-color: rgba(163, 184, 108, 1);
+	background-color: #EDE9DC;
 	color: black;
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
-	height: 60vh;
 	margin-left: 1vw;
 }
 
@@ -221,6 +221,7 @@ html, body {
 }
 
 .contactText {
+	font-size: 24px;
 	display: inline;
 	margin: 0 1vw;
 }
