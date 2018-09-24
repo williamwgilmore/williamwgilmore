@@ -45,6 +45,11 @@ html, body {
 	font-size: 28px;
 }
 
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
 .centerHeight {
 	padding: 45vh 0;
 }
