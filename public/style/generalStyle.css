@@ -52,7 +52,7 @@ html, body {
 /*About CSS -- there is also css in a media query*/
 
 .about {
-	padding: 3vh;
+	padding: 21vh 0;
 	min-height: 65vh;
 }
 
@@ -128,6 +128,7 @@ html, body {
 	/*Counter whitespace from container*/
 	margin-left: -15px;
 	margin-right: -15px;
+	padding: 3vh 0;
 }
 
 .professionalBackground {
@@ -171,8 +172,12 @@ html, body {
 
 /*Projects CSS -- there is also css in a media query*/
 
+.projectsBackground {
+	padding: 5vh 0;
+}
+
 .gameHostSection {
-	background-color: #F6F4ED;
+	background-color: #EDE9DC;
 	color: #003A65;
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;
@@ -184,7 +189,7 @@ html, body {
 }
 
 .immigrationPortalSection {
-	background-color: #EDE9DC;
+	background-color: #e5dfcb;
 	color: black;
 	padding: 1vh 2vw 1vh 2vw;
 	text-align: justify;

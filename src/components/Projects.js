@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Projects extends Component {
 	render() {
 		return (
-			<div>
+			<div className='projectsBackground'>
 				<div className='row'>
 					<div className='col-md-12 text-center'>
 						<h1>Projects</h1>
@@ -21,7 +21,7 @@ export default class Projects extends Component {
 						<p className='experienceText'>
 							For my final project at The University of Texas at Austin's Bootcamp, I created a game hosting site using
 							React, Canvas, Mongoose, and Auth0. The idea behind the site is that the only code that needs to change is
-							the code for different games, while the chatroom or leaderboard list components can be reused for each game.
+							the code for different games, while the chatroom or leaderboard components can be reused for each game.
 						</p>						
 					</div>
 					<div className='col-md-4 backgroundZoom immigrationPortalSection'>
