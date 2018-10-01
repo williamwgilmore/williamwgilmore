@@ -245,6 +245,10 @@ html, body {
 /*Media query*/
 
 @media (max-width: 991px){
+	body {
+		text-align: left;
+	}
+
 	/*Bio*/
 	.bioText {
 		margin: 3vh 3vw 3vh 3vw;
