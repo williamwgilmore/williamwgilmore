@@ -6,7 +6,7 @@ export default class Bio extends Component {
 
 		this.animate = this.animate.bind(this);
 		this.state = {
-			bioClass: 'bioText',
+			bioClass: 'bioText alignText',
 		};
 	}
 
@@ -16,7 +16,7 @@ export default class Bio extends Component {
 
 	animate(){
 		this.setState({ 
-			bioClass: 'bioText slideInLeft',
+			bioClass: 'bioText alignText slideInLeft',
 		});
 	}
 

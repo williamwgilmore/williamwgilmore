@@ -18,7 +18,7 @@ export default class Projects extends Component {
 						<a href='https://radiant-sands-20076.herokuapp.com/breakout' className='gameHostLink' target='_blank' rel="noopener noreferrer" >
 							<span className='screenReader'>A link to the GameHost site</span>
 						</a>
-						<p className='experienceText'>
+						<p className='experienceText alignText'>
 							For my final project at The University of Texas at Austin's Bootcamp, I created a game hosting site using
 							React, Canvas, Mongoose, and Auth0. The idea behind the site is that the only code that needs to change is
 							the code for different games, while the chatroom or leaderboard components can be reused for each game.
@@ -31,7 +31,7 @@ export default class Projects extends Component {
 						<a href='https://fast-everglades-41667.herokuapp.com/document' className='immigrationPortalLink' target='_blank' rel="noopener noreferrer">
 							<span className='screenReader'>A link to the Immigration App site</span>
 						</a>
-						<p className='experienceText'>
+						<p className='experienceText alignText'>
 							One of my group projects from UT's coding bootcamp, we found someone looking for a website to help immigrants
 							connect with pro bono lawyers. We never heard back from them, but decided to make a mock website anyways.
 						</p>

@@ -23,7 +23,7 @@ export default class Experience extends Component {
 								<div className='col-md-12'>
 									<h4 className='text-center'>Junior Full Stack Web Developer</h4>
 									<h5 className='text-center'>at Aspire Food Group</h5>
-									<p className='experienceText'>
+									<p className='experienceText alignText'>
 										A senior developer and I spent a year building an internal tracking website for Aspire Food Group,
 										a rapidly growing startup. Our system tracked the amount of raw materials consumed and where they 
 										were used, as well as the conditions that produced their product, crickets, most efficiently. I 
@@ -47,10 +47,10 @@ export default class Experience extends Component {
 								<div className='col-md-12'>
 									<h4 className='text-center'>Full Stack Web Developer Certification</h4>
 									<h5 className='text-center'>at The University of Texas at Austin</h5>
-									<p className='experienceText'>
+									<p className='experienceText alignText'>
 										Students in the program learn to be a full-stack developer, gaining the skills to become proficient in
-										 frontend and backend technologies. Featured technologies: JavaScript, HTML5, CSS, jQuery, Responsive Design,
-										  Bootstrap, React.js, Node.js, MongoDB, MySQL, Heroku, Security and Session Storage, and User Authentication.
+										frontend and backend technologies. Featured technologies: JavaScript, HTML5, CSS, jQuery, Responsive Design,
+										Bootstrap, React.js, Node.js, MongoDB, MySQL, Heroku, Security and Session Storage, and User Authentication.
 									</p> 
 							  	<br />
 								</div>
