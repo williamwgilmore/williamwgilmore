@@ -16,7 +16,7 @@ export default class Experience extends Component {
 							<div className='row'>
 								<div className='col-md-12'>
 									<h3 className='text-center'>Professional</h3>
-									<hr className='blackBar'/>
+									<hr />
 								</div>
 							</div>
 							<div className='row'>
