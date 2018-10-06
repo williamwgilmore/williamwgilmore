@@ -68,6 +68,7 @@ html, body {
 .bioText {
 	font-size: 22px;
 	margin: 1vh 0 1vh 0;
+	padding-top: 2vh;
 }
 
 .bioImage {
