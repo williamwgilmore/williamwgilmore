@@ -16,7 +16,7 @@ export default class Experience extends Component {
 							<div className='row'>
 								<div className='col-md-12'>
 									<h3 className='text-center'>Professional</h3>
-									<hr />
+									<hr className='blackBar'/>
 								</div>
 							</div>
 							<div className='row'>
@@ -26,8 +26,8 @@ export default class Experience extends Component {
 									<p className='experienceText alignText'>
 										A senior developer and I spent a year building an internal tracking website for Aspire Food Group,
 										a rapidly growing startup. Our system tracked the amount of raw materials consumed and where they 
-										were used, as well as the conditions that produced their product, crickets, most efficiently. I 
-										learned C# with the help of the senior developer while working here.
+										were used, as well as the conditions that produced their product, crickets, most efficiently. While
+										working at Aspire, I handled most of the front-end development while learning C# with the help of the senior developer.
 									</p> 
 							  	<br />
 								</div>
