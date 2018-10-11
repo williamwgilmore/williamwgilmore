@@ -346,6 +346,11 @@ html, body {
 }
 
 @media only screen and (max-width: 826){
+	/*Welcome*/
+	.centerHeight {
+		padding: 25vh 0;
+	}
+	
 	/*Bio*/
 	.bioText {
 		margin: 3vh 3vw 3vh 3vw;
