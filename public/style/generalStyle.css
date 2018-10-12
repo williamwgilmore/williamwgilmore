@@ -308,7 +308,7 @@ html, body {
 @media (max-width: 991px){
 	/*Welcome*/
 	.centerHeight {
-		padding: 0vh 0;
+		padding: 30vh 0;
 		color: blue;
 	}
 
@@ -350,8 +350,7 @@ html, body {
 	}
 }
 
-/*only screen and*/
-@media  (max-width: 826){
+@media only screen and (max-width: 826){
 	/*Welcome*/
 	.centerHeight {
 		padding: 10vh 0;
