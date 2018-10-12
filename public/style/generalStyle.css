@@ -344,7 +344,7 @@ html, body {
 	}
 }
 
-@media (max-width: 610){
+@media (pointer:coarse){
 	/*Welcome*/
 	.centerHeight {
 		padding: 10vh 0;
