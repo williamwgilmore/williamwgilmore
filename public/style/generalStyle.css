@@ -306,6 +306,11 @@ html, body {
 /*Media query*/
 /*Small screen -- bootstrap resize*/
 @media (max-width: 991px){
+	/*Welcome*/
+	.centerHeight {
+		padding: 0vh 0;
+		color: blue;
+	}
 
 	/*Bio*/
 	.bioText {
@@ -345,11 +350,12 @@ html, body {
 	}
 }
 
-/**/
-@media only screen and (max-width: 826){
+/*only screen and*/
+@media  (max-width: 826){
 	/*Welcome*/
 	.centerHeight {
-		padding: 0;
+		padding: 10vh 0;
+		color: red;
 	}
 	
 	/*Bio*/
